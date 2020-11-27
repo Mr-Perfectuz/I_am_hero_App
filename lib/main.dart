@@ -1,4 +1,5 @@
 import 'dart:ui';
+import 'package:flutter/animation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
 
@@ -8,7 +9,10 @@ void main() {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('I am rich'),
+          title: Center(
+              child: Text(
+            'I am rich',
+          )),
           backgroundColor: Colors.blueGrey[900],
         ),
         body: Center(
